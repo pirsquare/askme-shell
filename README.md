@@ -18,7 +18,7 @@ yum -y install git jq
 ## Examples
 ```shell
 
-cd /opt && git clone https://github.com/pirsquare/askme.git
+cd /opt && git clone https://github.com/pirsquare/askme.git && cd askme
 
 # Get list of digitalocean's supported distribution image.
 # In this case, we are querying for digitalocean's "dist-image" record
